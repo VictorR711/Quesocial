@@ -119,6 +119,7 @@ body {
     background-color: #F7F6F2;
     border: 2px solid #F5C518;
     flex-shrink: 0;
+    object-fit: cover;
 }
 
 .publi__author-info {
