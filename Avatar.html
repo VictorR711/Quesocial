@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html" class="header__link">
+                <img src="Logo.svg" alt="" class="logo-icon">
+                <h1><span class="logo-queso">Queso</span><span class="logo-cial">cial</span></h1>
+            </a>
+        </div>
+        <div class="header__user">
+            <span>Leidy Morayta</span>
+        </div>
+    </header>
+
+    <main class="contenedor-perfil">
+
+        <a href="index.html" class="volver">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l14 0" /><path d="M5 12l4 4" /><path d="M5 12l4 -4" /></svg>
+            Volver al feed
+        </a>
+
+        <section class="perfil-foto">
+            <img src="ajolote.jpeg" alt="Foto de perfil" class="perfil-img">
+        </section>
+
+        <section class="perfil-info">
+            <h2 class="perfil-info__nombre">Leidy Miriam Morayta Peréz</h2>
+            <p class="perfil-info__ubicacion">
+                <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" /></svg>
+                Reside en: San Francisco de Campeche
+            </p>
+
+            <h3 class="perfil-info__titulo">
+                <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
+                Acerca de mí
+            </h3>
+            <p class="perfil-info__bio">
+                Me encanta leer fanfics de HannibalxWill, siempre tengo sueño y necesito cafe 7w7
+            </p>
+
+            <div class="perfil-actions">
+                <button type="button" class="btn btn--primary">
+                    <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1" /><path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415" /><path d="M16 5l3 3" /></svg>
+                    Editar perfil
+                </button>
+                <button type="button" class="btn btn--ghost">
+                    <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8 9h-1a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-8a2 2 0 0 0 -2 -2h-1" /><path d="M12 14v-11" /><path d="M9 6l3 -3l3 3" /></svg>
+                    Compartir
+                </button>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <h2 class="sidebar__title">
+                <svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg>
+                Contactos
+            </h2>
+            <ul class="chat-list">
+                <li class="chat-list__item">
+                    <a href="Avatar4.html" class="chat-list__link">
+                        <img class="chat-list__avatar" src="reddit.jpeg" alt="Avatar de Angela">
+                        <span class="chat-list__name">Pimienta Molida</span>
+                    </a>
+                </li>
+                <li class="chat-list__item">
+                    <a href="Avatar2.html" class="chat-list__link">
+                        <img class="chat-list__avatar" src="joker.jpeg" alt="Avatar de Diego">
+                        <span class="chat-list__name">Diego Valdez</span>
+                    </a>
+                </li>
+                <li class="chat-list__item">
+                    <a href="Avatar3.html" class="chat-list__link">
+                        <img class="chat-list__avatar" src="gatito.jpeg" alt="Avatar de Victor">
+                        <span class="chat-list__name">Vitor el nazi</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Creado por: Pimienta Diaz, Romero Minaya, Morayta Pérez, Valadez Almeyda</p>
+    </footer>
+
+    <button class="chat-button" aria-label="Abrir chat">
+        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FDFCF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" /><path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" /></svg>
+    </button>
+
+</body>
+</html>
