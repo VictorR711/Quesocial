@@ -318,6 +318,7 @@ body {
         width: 100%;
         max-width: 480px;
         order: 3;
+        display: none;
     }
 
     .perfil-info__ubicacion,
